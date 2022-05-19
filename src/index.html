@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Timeline</title>
+  </head>
+
+  <section class="timeline">
+    <div class="timeline__header">
+      <div class="timeline__empty">
+        Your timeline is empty at the moment. It's time to add your first post.
+      </div>
+      <div class="timeline__not-empty">
+        <div class="timeline__line"></div>
+        <ul class="timeline__list-of-events">
+          <li class="timeline__event">
+            <div class="event__body">
+              <div class="event__text">AS</div>
+              <div class="event__time">03.05.2022 19:59</div>
+            </div>
+
+            <div class="event__coordinates">12</div>
+          </li>
+
+          <li class="timeline__event">
+            <div class="event__body">
+              <div class="event__text">AS</div>
+              <div class="event__time">03.05.2022 19:59</div>
+            </div>
+
+            <div class="event__coordinates">12</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <form class="timeline__form">
+      <textarea
+        class="timeline__add-post"
+        placeholder="You can share your thoughts here"
+      ></textarea>
+      <div class="timeline__button-wrapper">
+        <button class="timeline__share-button">Share</button>
+      </div>
+    </form>
+  </section>
+  <div class="geolocation hidden">
+    <form class="geolocation__form">
+      <div class="geolocation__header">
+        Something went wrong. Your location could not be determined. Please add
+        it manually.
+      </div>
+      <div class="geolocation__container">
+        <input
+          class="geolocation__coordinates"
+          placeholder="00.00000, 00.00000"
+        />
+      </div>
+      <div class="geolocation__controlls">
+        <button type="button" class="geolocation__cancel-button">Cancel</button>
+        <button type="submit" class="geolocation__submit-button">Submit</button>
+      </div>
+    </form>
+  </div>
+</html>
