@@ -1,6 +1,7 @@
-// // import Card from './Card';
-// import Timeline from './Timeline';
+// import Card from './Card';
+import Timeline from './Timeline';
 
-// window.onload = () => {
-//   const timeline = new Timeline();
-// };
+window.onload = () => {
+  const timeline = new Timeline();
+  timeline.init();
+};

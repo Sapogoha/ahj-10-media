@@ -33,6 +33,7 @@ li {
   background-color: #ffffff;
   padding: 15px;
   margin: 0px auto 30px auto;
+  text-align: center;
 }
 
 .timeline__add-post {
@@ -185,4 +186,19 @@ li {
 
 .hidden {
   display: none;
+}
+
+.error {
+  width: 75%;
+  text-align: center;
+  border: 1px solid #3191f2;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #edb2b2;
+  padding: 15px;
+  margin: 30px auto 0px auto;
+}
+
+button:hover {
+  background-color: #0a7df0;
 }
